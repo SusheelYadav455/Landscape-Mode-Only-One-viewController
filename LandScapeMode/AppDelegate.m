@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "SecondViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -41,5 +41,30 @@
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
+
+
+#pragma mark - Orientation
+
+- (UIInterfaceOrientationMask)application:(UIApplication *)application supportedInterfaceOrientationsForWindow:(UIWindow *)window
+{
+    if ([self.window.rootViewController.presentedViewController isKindOfClass:[SecondViewController class]])
+    {
+        SecondViewController *secondController = (SecondViewController *) self.window.rootViewController.presentedViewController;
+        
+        if (secondController.isPresented)
+        {
+            return UIInterfaceOrientationMaskAll;
+        }
+        else return UIInterfaceOrientationMaskPortrait;
+    }
+    else return UIInterfaceOrientationMaskPortrait;
+}
+
+
+
+
+
+
+
 
 @end

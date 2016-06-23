@@ -15,6 +15,7 @@
 		180B001D1D1BFF76006B8467 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 180B001B1D1BFF76006B8467 /* LaunchScreen.storyboard */; };
 		180B00281D1BFF77006B8467 /* LandScapeModeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 180B00271D1BFF77006B8467 /* LandScapeModeTests.m */; };
 		180B00331D1BFF77006B8467 /* LandScapeModeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 180B00321D1BFF77006B8467 /* LandScapeModeUITests.m */; };
+		180B00421D1BFFA4006B8467 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 180B00411D1BFFA4006B8467 /* SecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		180B002E1D1BFF77006B8467 /* LandScapeModeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LandScapeModeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		180B00321D1BFF77006B8467 /* LandScapeModeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LandScapeModeUITests.m; sourceTree = "<group>"; };
 		180B00341D1BFF77006B8467 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		180B00401D1BFFA4006B8467 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SecondViewController.h; path = ../SecondViewController.h; sourceTree = "<group>"; };
+		180B00411D1BFFA4006B8467 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SecondViewController.m; path = ../SecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				180B00111D1BFF76006B8467 /* AppDelegate.m */,
 				180B00131D1BFF76006B8467 /* ViewController.h */,
 				180B00141D1BFF76006B8467 /* ViewController.m */,
+				180B00401D1BFFA4006B8467 /* SecondViewController.h */,
+				180B00411D1BFFA4006B8467 /* SecondViewController.m */,
 				180B00161D1BFF76006B8467 /* Main.storyboard */,
 				180B00191D1BFF76006B8467 /* Assets.xcassets */,
 				180B001B1D1BFF76006B8467 /* LaunchScreen.storyboard */,
@@ -270,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				180B00421D1BFFA4006B8467 /* SecondViewController.m in Sources */,
 				180B00151D1BFF76006B8467 /* ViewController.m in Sources */,
 				180B00121D1BFF76006B8467 /* AppDelegate.m in Sources */,
 				180B000F1D1BFF76006B8467 /* main.m in Sources */,
