@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		180B000F1D1BFF76006B8467 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 180B000E1D1BFF76006B8467 /* main.m */; };
+		180B00121D1BFF76006B8467 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 180B00111D1BFF76006B8467 /* AppDelegate.m */; };
+		180B00151D1BFF76006B8467 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 180B00141D1BFF76006B8467 /* ViewController.m */; };
+		180B00181D1BFF76006B8467 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 180B00161D1BFF76006B8467 /* Main.storyboard */; };
+		180B001A1D1BFF76006B8467 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 180B00191D1BFF76006B8467 /* Assets.xcassets */; };
+		180B001D1D1BFF76006B8467 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 180B001B1D1BFF76006B8467 /* LaunchScreen.storyboard */; };
+		180B00281D1BFF77006B8467 /* LandScapeModeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 180B00271D1BFF77006B8467 /* LandScapeModeTests.m */; };
+		180B00331D1BFF77006B8467 /* LandScapeModeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 180B00321D1BFF77006B8467 /* LandScapeModeUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		180B00241D1BFF77006B8467 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 180B00021D1BFF75006B8467 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 180B00091D1BFF75006B8467;
+			remoteInfo = LandScapeMode;
+		};
+		180B002F1D1BFF77006B8467 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 180B00021D1BFF75006B8467 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 180B00091D1BFF75006B8467;
+			remoteInfo = LandScapeMode;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		180B000A1D1BFF75006B8467 /* LandScapeMode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LandScapeMode.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		180B000E1D1BFF76006B8467 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		180B00101D1BFF76006B8467 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		180B00111D1BFF76006B8467 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		180B00131D1BFF76006B8467 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		180B00141D1BFF76006B8467 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		180B00171D1BFF76006B8467 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		180B00191D1BFF76006B8467 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		180B001C1D1BFF76006B8467 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		180B001E1D1BFF76006B8467 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		180B00231D1BFF77006B8467 /* LandScapeModeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LandScapeModeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		180B00271D1BFF77006B8467 /* LandScapeModeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LandScapeModeTests.m; sourceTree = "<group>"; };
+		180B00291D1BFF77006B8467 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		180B002E1D1BFF77006B8467 /* LandScapeModeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LandScapeModeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		180B00321D1BFF77006B8467 /* LandScapeModeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LandScapeModeUITests.m; sourceTree = "<group>"; };
+		180B00341D1BFF77006B8467 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		180B00071D1BFF75006B8467 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		180B00201D1BFF77006B8467 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		180B002B1D1BFF77006B8467 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		180B00011D1BFF75006B8467 = {
+			isa = PBXGroup;
+			children = (
+				180B000C1D1BFF76006B8467 /* LandScapeMode */,
+				180B00261D1BFF77006B8467 /* LandScapeModeTests */,
+				180B00311D1BFF77006B8467 /* LandScapeModeUITests */,
+				180B000B1D1BFF75006B8467 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		180B000B1D1BFF75006B8467 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				180B000A1D1BFF75006B8467 /* LandScapeMode.app */,
+				180B00231D1BFF77006B8467 /* LandScapeModeTests.xctest */,
+				180B002E1D1BFF77006B8467 /* LandScapeModeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		180B000C1D1BFF76006B8467 /* LandScapeMode */ = {
+			isa = PBXGroup;
+			children = (
+				180B00101D1BFF76006B8467 /* AppDelegate.h */,
+				180B00111D1BFF76006B8467 /* AppDelegate.m */,
+				180B00131D1BFF76006B8467 /* ViewController.h */,
+				180B00141D1BFF76006B8467 /* ViewController.m */,
+				180B00161D1BFF76006B8467 /* Main.storyboard */,
+				180B00191D1BFF76006B8467 /* Assets.xcassets */,
+				180B001B1D1BFF76006B8467 /* LaunchScreen.storyboard */,
+				180B001E1D1BFF76006B8467 /* Info.plist */,
+				180B000D1D1BFF76006B8467 /* Supporting Files */,
+			);
+			path = LandScapeMode;
+			sourceTree = "<group>";
+		};
+		180B000D1D1BFF76006B8467 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				180B000E1D1BFF76006B8467 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		180B00261D1BFF77006B8467 /* LandScapeModeTests */ = {
+			isa = PBXGroup;
+			children = (
+				180B00271D1BFF77006B8467 /* LandScapeModeTests.m */,
+				180B00291D1BFF77006B8467 /* Info.plist */,
+			);
+			path = LandScapeModeTests;
+			sourceTree = "<group>";
+		};
+		180B00311D1BFF77006B8467 /* LandScapeModeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				180B00321D1BFF77006B8467 /* LandScapeModeUITests.m */,
+				180B00341D1BFF77006B8467 /* Info.plist */,
+			);
+			path = LandScapeModeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		180B00091D1BFF75006B8467 /* LandScapeMode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 180B00371D1BFF77006B8467 /* Build configuration list for PBXNativeTarget "LandScapeMode" */;
+			buildPhases = (
+				180B00061D1BFF75006B8467 /* Sources */,
+				180B00071D1BFF75006B8467 /* Frameworks */,
+				180B00081D1BFF75006B8467 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LandScapeMode;
+			productName = LandScapeMode;
+			productReference = 180B000A1D1BFF75006B8467 /* LandScapeMode.app */;
+			productType = "com.apple.product-type.application";
+		};
+		180B00221D1BFF77006B8467 /* LandScapeModeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 180B003A1D1BFF77006B8467 /* Build configuration list for PBXNativeTarget "LandScapeModeTests" */;
+			buildPhases = (
+				180B001F1D1BFF77006B8467 /* Sources */,
+				180B00201D1BFF77006B8467 /* Frameworks */,
+				180B00211D1BFF77006B8467 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				180B00251D1BFF77006B8467 /* PBXTargetDependency */,
+			);
+			name = LandScapeModeTests;
+			productName = LandScapeModeTests;
+			productReference = 180B00231D1BFF77006B8467 /* LandScapeModeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		180B002D1D1BFF77006B8467 /* LandScapeModeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 180B003D1D1BFF77006B8467 /* Build configuration list for PBXNativeTarget "LandScapeModeUITests" */;
+			buildPhases = (
+				180B002A1D1BFF77006B8467 /* Sources */,
+				180B002B1D1BFF77006B8467 /* Frameworks */,
+				180B002C1D1BFF77006B8467 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				180B00301D1BFF77006B8467 /* PBXTargetDependency */,
+			);
+			name = LandScapeModeUITests;
+			productName = LandScapeModeUITests;
+			productReference = 180B002E1D1BFF77006B8467 /* LandScapeModeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		180B00021D1BFF75006B8467 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = AhexTech;
+				TargetAttributes = {
+					180B00091D1BFF75006B8467 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					180B00221D1BFF77006B8467 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 180B00091D1BFF75006B8467;
+					};
+					180B002D1D1BFF77006B8467 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 180B00091D1BFF75006B8467;
+					};
+				};
+			};
+			buildConfigurationList = 180B00051D1BFF75006B8467 /* Build configuration list for PBXProject "LandScapeMode" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 180B00011D1BFF75006B8467;
+			productRefGroup = 180B000B1D1BFF75006B8467 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				180B00091D1BFF75006B8467 /* LandScapeMode */,
+				180B00221D1BFF77006B8467 /* LandScapeModeTests */,
+				180B002D1D1BFF77006B8467 /* LandScapeModeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		180B00081D1BFF75006B8467 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180B001D1D1BFF76006B8467 /* LaunchScreen.storyboard in Resources */,
+				180B001A1D1BFF76006B8467 /* Assets.xcassets in Resources */,
+				180B00181D1BFF76006B8467 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		180B00211D1BFF77006B8467 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		180B002C1D1BFF77006B8467 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		180B00061D1BFF75006B8467 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180B00151D1BFF76006B8467 /* ViewController.m in Sources */,
+				180B00121D1BFF76006B8467 /* AppDelegate.m in Sources */,
+				180B000F1D1BFF76006B8467 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		180B001F1D1BFF77006B8467 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180B00281D1BFF77006B8467 /* LandScapeModeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		180B002A1D1BFF77006B8467 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180B00331D1BFF77006B8467 /* LandScapeModeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		180B00251D1BFF77006B8467 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 180B00091D1BFF75006B8467 /* LandScapeMode */;
+			targetProxy = 180B00241D1BFF77006B8467 /* PBXContainerItemProxy */;
+		};
+		180B00301D1BFF77006B8467 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 180B00091D1BFF75006B8467 /* LandScapeMode */;
+			targetProxy = 180B002F1D1BFF77006B8467 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		180B00161D1BFF76006B8467 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				180B00171D1BFF76006B8467 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		180B001B1D1BFF76006B8467 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				180B001C1D1BFF76006B8467 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		180B00351D1BFF77006B8467 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		180B00361D1BFF77006B8467 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		180B00381D1BFF77006B8467 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LandScapeMode/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AhexTech.LandScapeMode;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		180B00391D1BFF77006B8467 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LandScapeMode/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AhexTech.LandScapeMode;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		180B003B1D1BFF77006B8467 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LandScapeModeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AhexTech.LandScapeModeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LandScapeMode.app/LandScapeMode";
+			};
+			name = Debug;
+		};
+		180B003C1D1BFF77006B8467 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LandScapeModeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AhexTech.LandScapeModeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LandScapeMode.app/LandScapeMode";
+			};
+			name = Release;
+		};
+		180B003E1D1BFF77006B8467 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LandScapeModeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AhexTech.LandScapeModeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LandScapeMode;
+			};
+			name = Debug;
+		};
+		180B003F1D1BFF77006B8467 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LandScapeModeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AhexTech.LandScapeModeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LandScapeMode;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		180B00051D1BFF75006B8467 /* Build configuration list for PBXProject "LandScapeMode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				180B00351D1BFF77006B8467 /* Debug */,
+				180B00361D1BFF77006B8467 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		180B00371D1BFF77006B8467 /* Build configuration list for PBXNativeTarget "LandScapeMode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				180B00381D1BFF77006B8467 /* Debug */,
+				180B00391D1BFF77006B8467 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		180B003A1D1BFF77006B8467 /* Build configuration list for PBXNativeTarget "LandScapeModeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				180B003B1D1BFF77006B8467 /* Debug */,
+				180B003C1D1BFF77006B8467 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		180B003D1D1BFF77006B8467 /* Build configuration list for PBXNativeTarget "LandScapeModeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				180B003E1D1BFF77006B8467 /* Debug */,
+				180B003F1D1BFF77006B8467 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 180B00021D1BFF75006B8467 /* Project object */;
+}
